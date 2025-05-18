@@ -7,6 +7,7 @@ colors = ['#4E79A7', '#F28E2B', '#E15759', '#76B7B2']
 
 # File mapping for each alpha
 alpha_files = {
+    '0.5': './results_csv/alpha_0_5.csv',
     '1.0': './results_csv/alpha_1_0.csv',
     '1.5': './results_csv/alpha_1_5.csv',
     '2.0': './results_csv/alpha_2_0.csv',

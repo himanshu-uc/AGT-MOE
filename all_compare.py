@@ -2,6 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Load CSVs
+df0 = pd.read_csv("results_csv/alpha_0_5.csv")
 df1 = pd.read_csv("results_csv/alpha_1_0.csv")
 df2 = pd.read_csv("results_csv/alpha_1_5.csv")
 df3 = pd.read_csv("results_csv/alpha_2_0.csv")

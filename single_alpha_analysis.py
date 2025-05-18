@@ -1,10 +1,10 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-alphas = ['1_0', '1_5', '2_0', '2_5']
+alphas = ['0_5', '1_0', '1_5', '2_0', '2_5']
 for alpha in alphas:
     # Load data
-    df = pd.read_csv(f'./alpha_{alpha}.csv')
+    df = pd.read_csv(f'./results_csv/alpha_{alpha}.csv')
 
     # Metrics to plot
     metric_cols = ['loss_train', 'loss_val', 'Expert Utilization', 'Load Imbalance Ratio',
